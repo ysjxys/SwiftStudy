@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='语法基础'/>
+        <page name='数据类型'/>
+        <page name='字符串'/>
+        <page name='集合类型'/>
+        <page name='控制语句'/>
+        <page name='枚举'/>
+        <page name='函数'/>
+        <page name='闭包'/>
+        <page name='属性'/>
+        <page name='类和结构体'/>
+        <page name='扩展'/>
+        <page name='协议'/>
+        <page name='*泛型'/>
+    </pages>
+</playground>

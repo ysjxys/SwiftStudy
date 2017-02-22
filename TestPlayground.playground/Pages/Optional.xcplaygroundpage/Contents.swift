@@ -12,3 +12,8 @@ let url = URL(string: "http://www.baidu.com/")
 if url != nil{
     let request = URLRequest(url: url!)
 }
+
+
+let maybeNone :String? = "xx"
+
+print(maybeNone!)

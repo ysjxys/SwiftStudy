@@ -12,6 +12,7 @@ let a = 10
 //变量var 可以改变内容
 var b = 20
 b = 15
+//一般首选let 在必须更改值的地方选择var
 
 //swift 对类型敏感，不同类型的值不能隐式转换相加
 let c = a + b
@@ -34,4 +35,8 @@ let m1: CGFloat = 10.1
 let m2 = 1.1
 //let m3 = m1 + m2 error
 let m3 = m1 + CGFloat(m2)
+
+let qimeila: (String, Int) = (desc:"haha", num:123)
+
+print(qimeila.1)
 
