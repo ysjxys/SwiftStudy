@@ -97,6 +97,19 @@ let array = [0,1,2,3,4]
 for i in array {
     print(i)
 }
+
+
+let xx = 0
+let yy = 0
+for xx in 0..<10 {
+    print(xx)
+    for yy in 0..<10 {
+        if yy == 5 {
+            print(yy)
+            break
+        }
+    }
+}
 //dictionary遍历 返回 key-value 元组
 let dictionary = ["a": 1, "b": 2, "c": 3, "d": 4, "e": 5]
 for i in dictionary {
